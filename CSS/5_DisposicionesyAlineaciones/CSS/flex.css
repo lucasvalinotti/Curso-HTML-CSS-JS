@@ -1,0 +1,38 @@
+/* https://codepen.io/exaneta/full/adLPwv */
+
+.flex{
+    display: flex;
+    /* flex direction sirve para sirve para elegir como mostrar el contenido */
+    flex-direction: column; /* O row*/
+    background-color: yellow;
+    height: 300px;
+    /* Justify content posiciona en eje principal */
+    justify-content: space-around;
+    /* Align-items posiciona en el eje secundario */
+    align-items: center;
+}
+
+.contenido-1{
+    background-color: white;
+    height: 200px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.contenido-2{
+    background-color: white;
+    height: 200px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.contenido-3{
+    background-color: white;
+    height: 200px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+p{  
+    text-align: center;
+}

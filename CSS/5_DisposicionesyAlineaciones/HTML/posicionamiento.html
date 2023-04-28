@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamiento</title>
+    <link rel="stylesheet" href="../CSS/posicionamiento.css">
+</head>
+<body>
+    <h1>Posicionamiento en CSS</h1>
+    <ul>
+        <li>Static</li>
+        <li>Relative</li>
+        <li>Fixed</li>
+        <li>Absolute</li>
+        <li>Sticky</li>
+    </ul>
+    <div class="static">
+        <p>Div STATIC</p>
+        <p>Los elementos estaticos no se modifican por el posicionamiento</p>
+    </div>
+    <div class="relative">
+        <p>Div RELATIVE</p>
+        <p>Relative permite posicionar en relacion al posicionamiento original</p>
+        <p>Puedo posicionarlo con left, right, etc.</p>
+    </div>
+    <div class="fixed">
+        <p>Div FIXED</p>
+        <p>Fixed permite que independientemente del scroll, los elementos permanecran fijos</p>
+        <p>Posicionamiento fijo, se posiciona en relacion a la pantalla</p>
+    </div>
+    <div class="sticky">
+        <p>Div STICKY</p>
+        <p>Al hacer scroll modifica su comportamiento hasta llegar al lugar que se le pone en css</p>
+    </div>
+    <div class="relative contenedor">
+        <div class="absolute">
+            <p>Div ABSOLUTE</p>
+            <p>Funciona como el fixed pero en vez de posicionarse en relacion a la pantalla lo hace en relacion a su padre relativo</p>
+            <p>Posicionamiento fijo, se posiciona en relacion a su padre absoluto</p>
+        </div>
+    </div>    
+</body>
+</html>

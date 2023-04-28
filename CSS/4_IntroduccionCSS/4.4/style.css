@@ -1,0 +1,47 @@
+/* FONDOS */
+.fondo{
+    background-color: burlywood;
+    /* En URL podemos poner tanto links como rutas */
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg");
+    background-position: top left;
+}
+
+.fondo-interno{
+    background-image: url("ruta");
+}
+
+.text {
+    color: white;
+}
+/* TAMAÑOS */
+/* Hay que tener cuidado con el uso de los px porque
+no son responsive */
+.ancho{
+    background-color: aqua;
+    width: 450px;
+}
+
+.alto{
+    background-color: blue;
+    height: 250px;
+    
+}
+
+.tarjeta{
+    /* Definir bordes */
+    /* Estilo de borde */
+    border-style: solid;
+    /* Color del Borde */
+    border-color: rgb(150,150,150);
+    /* Ancho del borde */
+    border-width: 1px;
+    /* Podemos borrar partes de los bordes, hay que
+    acceder a cada parte ej: border-top: none; */
+
+    /* PADDING (Espacio Interno) */
+    /* con la propiedad padding se cambia en todo */
+    padding: 10px 30px;
+
+    /* MARGIN (Espacio Externo) */
+    margin: 70px 25px;
+}

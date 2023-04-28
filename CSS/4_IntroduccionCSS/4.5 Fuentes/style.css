@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+html {
+    /* Cambiar familia de Fuente */
+    font-family: 'Oswald', sans-serif;
+    /* Tamaño de la fuente */
+    font-size: large;
+    /* Ancho de fuente (Mas fino o mas negrita) */
+    font-weight: bold;
+
+    /* Importar fuentes de google */
+}

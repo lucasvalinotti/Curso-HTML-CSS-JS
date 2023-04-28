@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.galeria{
+    width: 100vw;
+    height: 100vh;
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.imagen-galeria{
+    width: 300px;
+}

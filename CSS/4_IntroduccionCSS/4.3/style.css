@@ -1,0 +1,22 @@
+.colors{
+    /* PODEMOS DEFINIR COLORES CON RGB O HEXADECIMAL */
+    font-size: 86pt;
+    /* HEXADECIMAL */
+    color: #553555;
+}
+
+.colorrgb{
+    /* RGB */
+    color: rgb(162, 143, 118);
+}
+
+.colorhexa{
+    /* HEXADECIMAL */
+    color: #9481ff;
+}
+
+.colorrgba{
+    /* RGBA (red, green, blue, alpha) */
+    /* Alpha es la transparencia */
+ color: rgba(255, 15, 142, 0.6);
+}

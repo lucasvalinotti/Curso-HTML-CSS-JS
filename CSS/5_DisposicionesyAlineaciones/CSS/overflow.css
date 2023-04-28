@@ -1,0 +1,56 @@
+div{
+    margin-top: 40px;
+}
+.contenedor-hidden{
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+
+    /* Overflow hidden hace que todo lo que 
+    sobresale no se ve ni se pueda ver */
+    overflow: hidden;
+}
+
+.contenedor-scroll{
+    color: white;
+    background-color: rgb(19, 31, 143);
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+
+    /* Overflow scroll crea un scroll para ver todo */
+    overflow: scroll;
+}
+
+.contenedor-scroll-x{
+    color: white;
+    background-color: rgb(230, 46, 46);
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.contenedor-auto{
+    background-color: rgb(7, 226, 171);
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+
+    /* Overflow auto crea un scroll donde sea 
+    necesario */
+    overflow: auto;
+}
+
+.contenedor-visible{
+    background-color: rgb(226, 7, 190);
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+
+    /* Overflow visible es como aparece por defecto, 
+    muestra todo */
+    overflow: visible;
+}

@@ -1,0 +1,43 @@
+/* PARA HACER REFERENCIA A TODAS LAS ETIQUETAS DE UN TIPO */
+/* En este caso voy a cambiar el estilo de todos los h1 de la pagina */
+h1 {
+    /* color es la propiedad que queremos cambiar, aqua es el valor de la propiedad */
+    color: red;
+}
+
+
+/* Poniendo estilo por selectores, hay que definir un id en el html y 
+asi se pone en css para darle estilo solamente a esa etiqueta */
+#primer_parrafo {
+    color: crimson;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* En este caso solamente se le pondra el estilo a las etiquetas p con el id segundo parrafo */
+p#segundo_parrafo{
+    color:  pink;
+}
+
+/* En este caso estoy accediendo por clase, no por id, por eso se pone punto en vez de # */
+.encabezado{
+    font-size: 26pt;
+    text-transform: uppercase;
+}
+
+/* Selector Universal */
+
+*{
+    color: black;
+    font-size: 20pt;
+}
+
+/* Ejemplo de uso */
+/* Todas las etiquetas con la clase warning se van a pintar de rojo */
+* .warning{
+    color: red;
+}
+
+/* Puedo "afectar" a diferentes elementos en una sola vez separandolos con comas */
+.encabezado, span, #primer_parrafo {
+    text-decoration: overline;
+}

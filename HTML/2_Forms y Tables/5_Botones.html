@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botones</title>
+</head>
+<body>
+    <form action="4.1_resultados.html" method="GET">
+        <div>
+            <!-- PROPIEDADES DE LOS CAMPOS DE TEXTO -->
+            <!-- required -> Hace que ese input sea obligatorio de llenar -->
+            <label for="username">Nombre de usuario: </label>
+            <input name = "username" id="username" required> 
+        </div>
+        <br>
+        <div>
+            <label for="pass">Contraseña: </label>
+            <input name="password" id="pass" type="password" required>
+        </div>
+        <br>
+        <div>
+            <!-- type number -> Input de numeros -->
+            <!-- puedo establecer una valor minimo y maximo (min, max)-->
+            <!-- step -> Para decir de cuanto en cuanto puede subir el num -->
+            <label for="edad">Edad: </label>
+            <input type="number" name="edad" id="edad" min="0" max="150" required
+            step="5">
+        </div>
+        <br>
+        <div>
+            <!-- type email -->
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email">
+        </div>
+        <br>
+        <div>
+            <!-- type date -> fecha de nacimiento-->
+            <label for="fecha">Fecha de Nacimiento: </label>
+            <input type="date" id="fecha" name="fecha">
+        </div>
+        <br>
+        <div>
+            <label for="comments">Comentarios: </label>
+            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+        </div>
+        <!-- type reset ->  Resetea todo el formulario-->
+        <button type="reset">Reset</button>
+        <!-- type submit -> Boton de enviar datos del formulario-->
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

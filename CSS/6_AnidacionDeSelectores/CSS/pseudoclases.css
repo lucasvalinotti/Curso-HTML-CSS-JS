@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    padding: 15px;
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+}
+
+/* PSEUDOCLASE HOVER */
+.hover{
+    
+    background-color: bisque;
+}
+
+.hover:hover{
+    background-color: aquamarine;
+    color: brown;
+}
+
+/* PSEUDOCLASE FIRST-CHILD */
+.listado{
+    background-color: blueviolet;
+}
+
+.listado p:first-child{
+    color: white;
+}
+
+/* PSEUDOCLASES LINK Y VISITED */
+.enlaces{
+    background-color: aqua;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited{
+    color:crimson;
+}
+
+a:active{
+    color: yellow;
+}

@@ -1,0 +1,9 @@
+/* ANIDAR SELECTORES */
+/* Escribir toda la "RUTA" que se quiera anidar */
+.main .contenedor p{
+    color: blue;
+}
+
+.contenedor #boton-contenedor{
+    background-color: burlywood;
+}

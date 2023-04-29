@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especificidad</title>
+    <link rel="stylesheet" href="../CSS/especificidad.css">
+</head>
+<body>
+    <h1 id="h1-id" class="h1-class">ESPECIFICIDAD</h1>
+    <p id="p-id" class="p-class">Los estilos siguen una "jerarquia" de acuerdo a si se los aplica por id, clase o el nombre del elemento.<br>Orden de especificidad:</p>
+    
+    <ol>
+        <li>Etiqueta !important en CSS (EVITAR)</li>
+        <li>Estilo en linea de HTML</li>
+        <li>ID</li>
+        <li>Clase</li>
+        <li>Elementos</li>
+    </ol>
+
+    <h2>"Medidas" de Especificidad</h2>
+    <ol>
+        <li>(1,0,0)</li>
+        <li>(0,1,0)</li>
+        <li>(0,0,1)</li>
+        <li>(0,0,0)</li>
+    </ol>
+    <p>Puedo aumentar la especificidad "sumando" dos selectores<br>
+    Por ejemplo: #id .clase tendra una especificidad (1,1,0) porque es (1,0,0) + (0,1,0)</p>
+</body>
+</html>
